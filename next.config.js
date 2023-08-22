@@ -1,4 +1,4 @@
-// @ts-nocheck
+// @ts-check
 
 /**
  * @type {import('next').NextConfig}
