@@ -16,7 +16,6 @@ import {
   LinkedinIcon,
   GithubIcon,
   EmailIcon,
-  EmailShareButton
 } from 'next-share'
 
 const Page = () => {
