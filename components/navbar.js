@@ -39,10 +39,10 @@ const Navbar = props => {
                 flexGrow={1}
                 mt={{ base: 4, md: 0 }}
                 >
-                    <Link href="/portfolio/projects" p={2} color={currentRoute === "projects" ? active : inactive } path={path}>
+                    <Link href="/projects" p={2} color={currentRoute === "/projects" ? active : inactive } path={path}>
                         Projects
                     </Link>
-                    <Link href="/portfolio/resume" p={2} color={currentRoute === "resume" ? active : inactive } path={path}>
+                    <Link href="/resume" p={2} color={currentRoute === "/resume" ? active : inactive } path={path}>
                         Resume
                     </Link>
         
@@ -57,13 +57,13 @@ const Navbar = props => {
                             variant="outline"
                         />
                         <MenuList>
-                            <MenuItem as='a' href='/portfolio'>
+                            <MenuItem as='a' href='/'>
                             About
                             </MenuItem>
-                            <MenuItem as='a' href="/portfolio/projects">
+                            <MenuItem as='a' href="/projects">
                             Projects
                             </MenuItem>
-                            <MenuItem as='a' href="/portfolio/resume">
+                            <MenuItem as='a' href="/resume">
                             Resume
                             </MenuItem>
                         </MenuList>
