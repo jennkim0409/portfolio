@@ -12,8 +12,8 @@ import { saveAs } from "file-saver";
 const Resume = () => {
     const saveFile = () => {
         saveAs(
-          "resume.pdf",
-          "JenniferKim_Resume.pdf"
+          "/Jennifer_Kim_Resume.pdf",
+          "Jennifer_Kim_Resume.pdf"
         );
       };
     return (
@@ -26,7 +26,7 @@ const Resume = () => {
             <Container pb={4}>
             <Button size='md' colorScheme={useColorModeValue('blackAlpha', 'pink')} onClick={saveFile}>Download My Resume</Button>
             </Container>
-            <iframe width='100%' height='700px' src='resume.pdf' />
+            <iframe width='100%' height='700px' src='Jennifer_Kim_Resume.pdf' />
         </Section>
         </Container>
         </Layout>

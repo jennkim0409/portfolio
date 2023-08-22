@@ -4,13 +4,20 @@ import {
   useColorModeValue,
   Text,
   Flex,
-  Show
+  Show,
+  IconButton,
 } from '@chakra-ui/react'
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import cat from '../public/images/cat.gif'
 import Section from '../components/section'
 import Timeline from '../components/timeline/timeline'
+import {
+  LinkedinIcon,
+  GithubIcon,
+  EmailIcon,
+  EmailShareButton
+} from 'next-share'
 
 const Page = () => {
     return (
@@ -56,8 +63,26 @@ const Page = () => {
           </Text>
           <Timeline/>
           </Section>
-
-
+          
+          <Container align="center" p={3}>
+            <Flex>
+            <a href="https://www.linkedin.com/in/jenniferkim0409/" target="_blank">
+            <IconButton isRound={true}>
+                <LinkedinIcon size={40} round />
+            </IconButton>
+            </a>
+            <a href="https://github.com/jennkim0409" target="_blank">
+              <IconButton isRound={true}>
+                <GithubIcon size={40} round />
+              </IconButton>
+            </a>
+            <a href="mailto:jennkim0409@g.ucla.edu" target="_blank">
+            <IconButton isRound={true}>
+                <EmailIcon size={40} round />
+              </IconButton>
+            </a>
+            </Flex>
+          </Container>
 
             
         </Container>
