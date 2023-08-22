@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Navbar from '../navbar.js'
 import {Box, Container} from '@chakra-ui/react'
 import VoxelCat from '../voxel-cat'
-import Spline from '@splinetool/react-spline';
 
 
 const Main = ({children, router}) => {

@@ -1,6 +1,6 @@
-import { Container, SimpleGrid, Divider, Text } from '@chakra-ui/react'
+import { Container, SimpleGrid, Text } from '@chakra-ui/react'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid'
 import connectn from '../public/images/connectn.png'
 import curiocity from '../public/images/curiocity.png'
 import kindling from '../public/images/kindling.png'

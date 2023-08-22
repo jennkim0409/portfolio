@@ -13,10 +13,6 @@ import cat from '../public/images/cat.gif'
 import Section from '../components/section'
 import Timeline from '../components/timeline/timeline'
 
-const ProfileImage = chakra(Image, {
-    shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-  })
-
 const Page = () => {
     return (
         <Container pt={7}>

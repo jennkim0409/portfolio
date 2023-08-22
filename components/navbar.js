@@ -13,7 +13,6 @@ import {
     MenuButton,
     IconButton,
     useColorModeValue,
-    useColorMode
 } from '@chakra-ui/react'
 import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -22,6 +21,7 @@ const Navbar = props => {
     const {path} = props
     const currentRoute = usePathname();
     const inactive = useColorModeValue('#de8383', '#ffdbea')
+    const active = useColorModeValue('black', 'white')
     return (
         <Box position="fixed" as="nav" w="100%" bg={useColorModeValue('#ffffff60', '#ffffff20')}
         style={{backdropFilter:'blur(10px'}} zIndex={1} {...props}>
@@ -39,10 +39,10 @@ const Navbar = props => {
                 flexGrow={1}
                 mt={{ base: 4, md: 0 }}
                 >
-                    <Link href="/projects" p={2} color={currentRoute === "/projects" ? useColorModeValue('black', 'white') : inactive } path={path}>
+                    <Link href="/projects" p={2} color={currentRoute === "/projects" ? active : inactive } path={path}>
                         Projects
                     </Link>
-                    <Link href="/resume" p={2} color={currentRoute === "/resume" ? useColorModeValue('black', 'white') : inactive } path={path}>
+                    <Link href="/resume" p={2} color={currentRoute === "/resume" ? active : inactive } path={path}>
                         Resume
                     </Link>
         

@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
-import Head from 'next/head'
-import { GridItemStyle } from '../grid-item'
+import { GridItemStyle } from '../grid'
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
@@ -8,7 +7,7 @@ const variants = {
   exit: { opacity: 0, x: -0, y: 20 }
 }
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children }) => {
   return (
     <motion.article
       initial="hidden"
