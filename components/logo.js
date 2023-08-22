@@ -18,7 +18,7 @@ padding: 30px;
 const Logo = () => {
 
     return (
-        <Link href="">
+        <Link href="/portfolio">
    
                 <LogoBox>
                     <Text 
