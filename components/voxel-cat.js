@@ -12,7 +12,7 @@ const VoxelCat = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlCatGLB = '/jiji.glb'
+  const urlCatGLB = 'jiji.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer

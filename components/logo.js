@@ -18,7 +18,7 @@ padding: 30px;
 const Logo = () => {
 
     return (
-        <Link href="/">
+        <Link href="">
    
                 <LogoBox>
                     <Text 
