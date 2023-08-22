@@ -28,7 +28,7 @@ return (
         </Section>
         <Section>
           <WorkGridItem 
-            link="https://github.com/tylerchang/mob_mentalityr" 
+            link="https://github.com/tylerchang/mob_mentality" 
             title="Mob Mentality" 
             thumbnail={mobmentality}>
             A family game where players answer questions and align with the majority. Made using React and Firebase
