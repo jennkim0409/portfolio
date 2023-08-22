@@ -23,7 +23,7 @@ return (
             link="https://drive.google.com/file/d/1R1dKgitXxVhGSWVfsPiXpz_R5pG9MR7Y/view?usp=sharing" 
             title="Cat's Tale" 
             thumbnail={cattale}>
-            An RPG featuring a cat's journey in a village. Developed with GameMaker Studio 2
+            An RPG featuring a cat&apos;s journey in a village. Developed with GameMaker Studio 2
           </WorkGridItem>
         </Section>
         <Section>
@@ -53,7 +53,7 @@ return (
               link="https://docs.google.com/presentation/d/1CqTcXWYFSjAr_7mH2KYRSL0OqVfioSeg_ZkbXav2Ypo/edit?usp=sharing" 
               title="Curiocity" 
               thumbnail={curiocity}>
-              A React Native application that generates places to visit depending on user's preferences
+              A React Native application that generates places to visit depending on user&apos;s preferences
             </WorkGridItem>
           </Section>
         </SimpleGrid>

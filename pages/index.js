@@ -3,7 +3,6 @@ import {
   Box,
   useColorModeValue,
   Text,
-  chakra,
   Flex,
   Show
 } from '@chakra-ui/react'
@@ -41,10 +40,10 @@ const Page = () => {
                 <Image src={cat} alt="cat GIF" width={160} unoptimized={true}/>
               </Show>
               <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="left">
-                <Text fontSize='1xl'>Hi, I'm Jennifer! I'm currently a fourth-year 
+                <Text fontSize='1xl'>Hi, I&apos;m Jennifer! I&apos;m currently a fourth-year 
                 computer science student at UCLA. </Text>
                 <Text fontSize='1xl' pt={3}>I really enjoy art and animation, which is
-                why I'm particularly interested in graphics and design development.</Text>
+                why I&apos;m particularly interested in graphics and design development.</Text>
                 <Text fontSize='1xl' pt={3}>In my free time I enjoy doing crafts, baking, and singing.
                 </Text>
               </Box>
