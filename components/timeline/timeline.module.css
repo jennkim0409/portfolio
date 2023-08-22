@@ -1,0 +1,20 @@
+.subtitle {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+.title {
+    padding-top: 0.25em;
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon {
+    border-radius: 50%;
+}
+.paragraph {
+    margin: 1em 0 1em 0;
+    font-size: 15px;
+}
+.extra {
+    font-size: 14px;
+}
