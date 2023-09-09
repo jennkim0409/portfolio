@@ -4,7 +4,7 @@ let timelineElements = [
         title: "Software Engineer Intern",
         company: "Atlassian | Mountain View, CA",
         description: "Working in the Trello Ecosystem team to create new features and components for Trello Cards",
-        date: "June 2023 - Present",
+        date: "June - September 2023",
         icon: "work",
     },
     {
@@ -20,7 +20,7 @@ let timelineElements = [
         title: "Firmware Engineer Intern",
         company: "Marvell Technology, Inc | Santa Clara, CA",
         description: "Joined NAND Solutions team to write Python test scripts that assess the health of NAND cards based on Firmware test results",
-        date: "June 2022 - September 2022",
+        date: "June - September 2022",
         icon: "work",
     },
 ]

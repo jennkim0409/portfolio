@@ -7,6 +7,7 @@ import kindling from '../public/images/kindling.png'
 import bloxorz from '../public/images/bloxorz.png'
 import cattale from '../public/images/cattale.png'
 import mobmentality from '../public/images/mobmentality.png'
+import raycast from '../public/images/raycast.png'
 import Layout from '../components/layouts/article'
 
 
@@ -42,12 +43,24 @@ return (
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
             <WorkGridItem 
-              link="https://github.com/elizabethkim11/bloxorz" 
+              link="https://drive.google.com/file/d/16mr_KeobgL95mTr4zFJomi7SQ6G85aVH/view?usp=sharing" 
               title="Animated 3D Block" 
               thumbnail={bloxorz}>
               A 3D user-interactive game that mimics Bloxorz, using Javascript and TinyGL/WebGL
             </WorkGridItem>
           </Section>
+          <Section delay={0.2}>
+            <WorkGridItem 
+              link="https://drive.google.com/file/d/17-u5F4jOdi2CZySf99OIPN-Da6ALPZmq/view?usp=sharing" 
+              title="Ray Casting with Cats" 
+              thumbnail={raycast}>
+              A user-interactive maze game that utilizes ray-casting techniques using C and OpenGL
+            </WorkGridItem>
+          </Section>
+          
+        </SimpleGrid>
+
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
             <WorkGridItem 
               link="https://docs.google.com/presentation/d/1CqTcXWYFSjAr_7mH2KYRSL0OqVfioSeg_ZkbXav2Ypo/edit?usp=sharing" 
@@ -56,9 +69,6 @@ return (
               A React Native application that generates places to visit depending on user&apos;s preferences
             </WorkGridItem>
           </Section>
-        </SimpleGrid>
-
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.4}>
             <WorkGridItem
               link="https://github.com/Cs35L-Project/kindling"
@@ -67,6 +77,8 @@ return (
               A React website that allows an individual to swipe through and become friends with other registered users 
           </WorkGridItem>
           </Section>
+        </SimpleGrid>
+        <SimpleGrid columns={[1,1,2]} gap={6}>
           <Section delay={0.4}>
             <WorkGridItem 
               link="https://github.com/jennkim0409/connectngame" 
