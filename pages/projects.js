@@ -43,6 +43,25 @@ return (
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
             <WorkGridItem 
+              link="https://docs.google.com/presentation/d/1CqTcXWYFSjAr_7mH2KYRSL0OqVfioSeg_ZkbXav2Ypo/edit?usp=sharing" 
+              title="Curiocity" 
+              thumbnail={curiocity}>
+              A React Native application that generates places to visit depending on user&apos;s preferences
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.4}>
+            <WorkGridItem
+              link="https://github.com/Cs35L-Project/kindling"
+              title="Kindling"
+              thumbnail={kindling}>
+              A React website that allows an individual to swipe through and become friends with other registered users 
+          </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+        
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.2}>
+            <WorkGridItem 
               link="https://drive.google.com/file/d/16mr_KeobgL95mTr4zFJomi7SQ6G85aVH/view?usp=sharing" 
               title="Animated 3D Block" 
               thumbnail={bloxorz}>
@@ -60,24 +79,6 @@ return (
           
         </SimpleGrid>
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.2}>
-            <WorkGridItem 
-              link="https://docs.google.com/presentation/d/1CqTcXWYFSjAr_7mH2KYRSL0OqVfioSeg_ZkbXav2Ypo/edit?usp=sharing" 
-              title="Curiocity" 
-              thumbnail={curiocity}>
-              A React Native application that generates places to visit depending on user&apos;s preferences
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.4}>
-            <WorkGridItem
-              link="https://github.com/Cs35L-Project/kindling"
-              title="Kindling"
-              thumbnail={kindling}>
-              A React website that allows an individual to swipe through and become friends with other registered users 
-          </WorkGridItem>
-          </Section>
-        </SimpleGrid>
         <SimpleGrid columns={[1,1,2]} gap={6}>
           <Section delay={0.4}>
             <WorkGridItem 
